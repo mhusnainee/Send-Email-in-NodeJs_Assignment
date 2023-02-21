@@ -26,8 +26,8 @@ app.post("/send_email", function(req, response){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'husnainabbasee17434@gmail.com',
-          pass: 'qmsuszrfiqtjfntk'
+          user: 'your email',
+          pass: 'your password'
         }
     })
 
